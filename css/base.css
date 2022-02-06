@@ -1,0 +1,258 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+a {
+  color: blue;
+  outline: none;
+  padding: 2px 1px 0;
+}
+
+.wrapper {
+  height: 969px;
+  width: 1920px;
+
+  min-height: 100vh;
+  display: grid;
+  grid-template: 1fr minmax(91px, auto) / 1fr 1fr;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #D3EDE1F7;
+	height: 100%;
+}
+
+.imgblock {
+  display: block;
+  width: 699px;
+  height: 678px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.bslogan_wrapper {
+  height: 161px;
+  width: 165px;
+  margin-bottom: 96px;
+}
+
+.registry_wrapper {
+  height: 339px;
+  width: 466px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  
+}
+
+.label {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #ADADAD;
+  margin-bottom: 8px;
+}
+
+.registry {
+  height: 48px;
+  width: 466px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  background: #F0F0F0;
+  margin-bottom: 55px;
+  padding: 8px 16px;
+}
+
+
+.registry_content {
+  height: 32px;
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.login {
+  height: 48px;
+  width: 466px;
+  border-radius: 16px;
+  background: #7DB59A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.login_content {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+}
+
+.checkbox_wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 35px;
+}
+
+.checkbox {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #5C5C5C;
+  border-radius: 4px;
+  margin: 0px 11px;
+}
+
+.checkbox_wrapper > label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.note {
+  margin-top: 16px;
+
+  
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer {
+    background-color: #7DB59A;
+    grid-column: 1 / -1;
+
+    display: flex;
+    align-items: center;
+}
+
+.smslogan_wrapper {
+  margin-left: 30px;
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    height: 667px;
+    width: 375px;
+    
+    
+    display: grid;
+    grid-template: 1fr minmax(64px, auto) / 1fr;
+  }
+
+	.sidebar {
+    display: none;
+  }
+
+  .content {
+    height: 603px;
+    width: 375px;
+    grid-row: 1;
+    padding-bottom: 84px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+
+  
+  .bslogan_wrapper {
+    height: 96px;
+    width: 93px;
+    margin-top: 48px;
+    margin-bottom:72px;
+  }
+
+  .smslogan_wrapper {
+    display: none;
+  }
+
+  .registry_wrapper {
+    height: 306px;
+    width: 343px;
+  
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+  }
+
+  .registry {
+    height: 48px;
+    width: 343px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    background: #F0F0F0;
+    margin-bottom: 24px;
+    padding: 12px 16px;
+  }
+
+  .registry_content {
+    height: 20px;
+    
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .checkbox_wrapper > label {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .login {
+    height: 48px;
+    width: 343px;
+    border-radius: 16px;
+    background: #7DB59A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .login_content {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+  }
+
+  .checkbox_wrapper {
+    
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .footer {
+    
+    background-color: #7DB59A;
+    grid-row: 2;
+   
+  }
+}
+
