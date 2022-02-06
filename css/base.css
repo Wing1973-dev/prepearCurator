@@ -155,9 +155,6 @@ a {
   .wrapper {
     height: 667px;
     width: 375px;
-    
-    
-    display: grid;
     grid-template: 1fr minmax(64px, auto) / 1fr;
   }
 
@@ -170,11 +167,6 @@ a {
     width: 375px;
     grid-row: 1;
     padding-bottom: 84px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
   }
 
   
@@ -192,27 +184,17 @@ a {
   .registry_wrapper {
     height: 306px;
     width: 343px;
-  
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    
   }
 
   .registry {
     height: 48px;
     width: 343px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-    background: #F0F0F0;
     margin-bottom: 24px;
     padding: 12px 16px;
   }
 
   .registry_content {
     height: 20px;
-    
     font-size: 16px;
     line-height: 19px;
   }
@@ -224,35 +206,20 @@ a {
   }
 
   .login {
-    height: 48px;
     width: 343px;
-    border-radius: 16px;
-    background: #7DB59A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
   }
 
   .login_content {
-    font-weight: bold;
     font-size: 16px;
-    line-height: 36px;
-    letter-spacing: 0.25px;
-    color: #FFFFFF;
   }
 
   .checkbox_wrapper {
-    
     margin-top: 0px;
     margin-bottom: 24px;
   }
 
   .footer {
-    
-    background-color: #7DB59A;
     grid-row: 2;
-   
   }
 }
 
